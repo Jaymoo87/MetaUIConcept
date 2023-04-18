@@ -17,17 +17,18 @@ const About = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
     >
-      <TypingText title="| About the Metaverse" textStyles="text-center" />
+      <TypingText title="| About the this Site" textStyles="text-center" />
       <motion.p
         variants={fadeIn("up", "tween", 0, 2, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] test-center text-secondary-white"
       >
-        <span className="font-extrabold text-white"> Metaverse</span>is a new thing in the future, where you can enjoy
-        the virtual world by feeling like it's really real, you can feel what you feel in this meaverse world, because
-        this is really the <span className="font-extrabold text-white">madness of the metaverse</span> of today, using
-        only <span className="font-extrabold text-white">VR</span> devices you can easily explore the metaverse world
-        you want, turn your dreams into reality. Let's <span className="font-extrabold text-white">explore</span> the
-        madness of the metaverse by scrolling down.
+        Welcome to my website! As a web developer, I'm always on the lookout for new and better tools and libraries to
+        help me create awesome websites and web applications. I've tried out many different tools and frameworks, and
+        I've narrowed down my favorites to a select few that I use on a regular basis. On this site, I'll be sharing my
+        top picks for web development tools and libraries, along with my thoughts and opinions on why they're so great.
+        Whether you're a beginner just starting out in web development or an experienced pro looking to improve your
+        workflow, I hope you'll find some useful insights and recommendations here. So let's dive in and explore some of
+        the best web development tools and libraries out there!
       </motion.p>
       <motion.img
         variants={fadeIn("up", "tween", 1.2, 1)}

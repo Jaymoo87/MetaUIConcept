@@ -24,7 +24,7 @@ const Explore = () => {
         <TitleText
           title={
             <>
-              Choose the world you want <br className="hidden md:block" /> to explore
+              Choose the tool or library you want <br className="hidden md:block" /> to explore
             </>
           }
           textStyles="text-center"
