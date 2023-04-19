@@ -17,8 +17,8 @@ const WhatsNew = () => (
       className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8`}
     >
       <motion.div variants={fadeIn("right", "tween", 0.2, 1)} className="flex-[0.75] flex justify-center flex-col">
-        <TypingText title="| Whats's New?" />
-        <TitleText title={<>What are some new tools?</>} />
+        <TypingText title="| How to keep track of it all" />
+        <TitleText title={<>Git and Github</>} />
         <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
           {newFeatures.map((feature, index) => (
             <NewFeatures key={feature.title} {...feature} />
@@ -26,7 +26,7 @@ const WhatsNew = () => (
         </div>
       </motion.div>
       <motion.div variants={planetVariants("right")} className={`${styles.flexCenter} flex-1`}>
-        <img src="/whatsnew.png" alt="whats-new" className="w-[90%] h-[90%] object-contain" />
+        <img src="/Git-HubPic.png" alt="whats-new" className="w-[90%] h-[90%] object-contain rounded-full " />
       </motion.div>
     </motion.div>
   </section>

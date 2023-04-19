@@ -15,13 +15,13 @@ const Page = () => (
       <div className="z-0 gradient-04" />
       <WhatsNew />
     </div>
-    {/* <World />
+    <World />
     <div className="relative">
       <Insights />
       <div className="z-0 gradient-05" />
 
       <Feedback />
-    </div> */}
+    </div>
     <Footer />
   </div>
 );

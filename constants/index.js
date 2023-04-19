@@ -1,6 +1,6 @@
 export const exploreWorlds = [
   {
-    id: "world-1",
+    id: "card-1",
     imgUrl: "/reactBackground.png",
     title: "React",
     description:
@@ -9,7 +9,7 @@ export const exploreWorlds = [
     logo: "/ReactLogo.png",
   },
   {
-    id: "world-2",
+    id: "card-2",
     imgUrl: "/nodeBackground.png",
     title: "Node.js",
     description:
@@ -18,7 +18,7 @@ export const exploreWorlds = [
     logo: "/NodeLogo.png",
   },
   {
-    id: "world-3",
+    id: "card-3",
     imgUrl: "/mysqlBackground.png",
     title: "MySql",
     description:
@@ -27,7 +27,7 @@ export const exploreWorlds = [
     logo: "/MySqlLogo.png",
   },
   {
-    id: "world-4",
+    id: "card-4",
     imgUrl: "/tailwindBackground.jpg",
     title: "Tailwind CSS",
     description:
@@ -36,7 +36,7 @@ export const exploreWorlds = [
     logo: "/TailwindLogo.png",
   },
   {
-    id: "world-5",
+    id: "card-5",
     imgUrl: "/framermotion.png",
     title: "Framer Motion",
     description:
@@ -45,7 +45,7 @@ export const exploreWorlds = [
     logo: "/FramerMotionLogo.png",
   },
   {
-    id: "world-6",
+    id: "card-6",
     imgUrl: "/viteBackground.png",
     title: "Vite",
     description:
@@ -54,7 +54,7 @@ export const exploreWorlds = [
     logo: "/ViteLogo.png",
   },
   {
-    id: "world-7",
+    id: "card-7",
     imgUrl: "/nextjsBackground.png",
     title: "Next.js",
     description:
@@ -72,14 +72,18 @@ export const startingFeatures = [
 
 export const newFeatures = [
   {
-    imgUrl: "/vrpano.svg",
-    title: "A new world",
-    subtitle: "we have the latest update with new world for you to try never mind",
+    imgUrl: "/gitIcon.png",
+    title: "What is a ...Git?",
+    subtitle:
+      "Git is like a time machine for your code! It lets you go back in time and see how your code has changed over the course of your project. It helps you collaborate with other developers on your team and keeps track of who made what changes to the code.",
+    link: "https://git-scm.com/",
   },
   {
-    imgUrl: "/headset.svg",
-    title: "More realistic",
-    subtitle: "In the latest update, your eyes are narrow, making the world more realistic than ever",
+    imgUrl: "/gitHubIcon.png",
+    title: "GitHub... where the gits go",
+    subtitle:
+      "Git is like a time machine that lets you go back in time and see how your code has evolved over the course of your project. GitHub, on the other hand, is like a time traveler's hub where developers can gather, collaborate, and share their code across time and space!",
+    link: "https://github.com/",
   },
 ];
 
