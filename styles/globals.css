@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap");
 :root {
   --transition: cubic-bezier(0.3, 0, 0.3, 1);
 }
@@ -10,7 +11,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Eudoxus Sans", sans-serif;
+  font-family: "Nunito", sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -106,4 +107,24 @@
 .doculink:hover {
   color: #c977de;
   font-size: 20px;
+}
+
+.mapcard {
+  transition: all 0.3s var(--transition);
+}
+.mapcard:hover {
+  width: 600px;
+  height: 400px;
+  z-index: 10;
+  overflow: hidden;
+}
+
+.mapcard p {
+  transition: all 0.3s var(--transition);
+}
+
+.mapcard:hover p:hover {
+  font-size: 48px;
+  justify-content: center;
+  overflow: hidden;
 }

@@ -9,7 +9,7 @@ import { TypingText, TitleText, ExploreCard } from "../components";
 import { exploreWorlds } from "../constants";
 
 const Explore = () => {
-  const [active, setActive] = useState("world-2");
+  const [active, setActive] = useState("card-2");
 
   return (
     <section className={`${styles.paddings}`} id="explore">
@@ -20,7 +20,7 @@ const Explore = () => {
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
-        <TypingText title="| The World" textStyles="text-center" />
+        <TypingText title="| Some Highlights" textStyles="text-center" />
         <TitleText
           title={
             <>

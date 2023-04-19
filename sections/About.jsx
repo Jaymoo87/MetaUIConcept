@@ -24,11 +24,11 @@ const About = () => (
       >
         Welcome to my website! As a web developer, I'm always on the lookout for new and better tools and libraries to
         help me create awesome websites and web applications. I've tried out many different tools and frameworks, and
-        I've narrowed down my favorites to a select few that I use on a regular basis. On this site, I'll be sharing my
-        top picks for web development tools and libraries, along with my thoughts and opinions on why they're so great.
-        Whether you're a beginner just starting out in web development or an experienced pro looking to improve your
-        workflow, I hope you'll find some useful insights and recommendations here. So let's dive in and explore some of
-        the best web development tools and libraries out there!
+        I've narrowed down my favorites to a select few that I use on a regular basis. <br /> <br /> On this site, I'll
+        be sharing my top picks for web development tools and libraries, along with my thoughts and opinions on why
+        they're so great. Whether you're a beginner just starting out in web development or an experienced pro looking
+        to improve your workflow, I hope you'll find some useful insights and recommendations here. So let's dive in and
+        explore some of the best web development tools and libraries out there!
       </motion.p>
       <motion.img
         variants={fadeIn("up", "tween", 1.2, 1)}

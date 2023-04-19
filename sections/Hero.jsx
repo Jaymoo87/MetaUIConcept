@@ -19,9 +19,7 @@ const Hero = () => (
           My Favorite Tools
         </motion.h1>
         <motion.div variants={textVariant(1.2)} className="flex flex-row items-center justify-center">
-          <h1 className={styles.heroHeading}>A</h1>
-          <h1 className={styles.heroHeading}>N</h1>
-          <div className={styles.heroDText} />
+          <img src="/ampersand.png" className=" h-[150px] w-[100px] sm:h-[150px] sm:w-[100px]"></img>
         </motion.div>
         <motion.h1 variants={textVariant(1.1)} className={styles.heroHeading}>
           Libraries
@@ -38,9 +36,9 @@ const Hero = () => (
         <a href="#explore">
           <div className="w-full flex justify-end sm:-mt-[70px] -mt-[50px] pr-[40px] relative z-10">
             <img
-              src="/open.png"
+              src="/CircleIcon.png"
               alt="stamp"
-              className="sm:w-[155px] w-[100px] sm:h-[155px] h-[100px] object-contain opacity-80"
+              className="sm:w-[155px] w-[100px] sm:h-[155px] h-[100px] object-contain opacity-80 rounded-full"
             />
           </div>
         </a>
