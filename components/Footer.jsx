@@ -1,12 +1,10 @@
-"use client";
+'use client';
 
-import { motion } from "framer-motion";
+import { motion } from 'framer-motion';
 
-import styles from "../styles";
-import { staggerContainer, fadeIn } from "../utils/motion";
-import { TypingText, TitleText } from "../components";
-import { footerVariants } from "../utils/motion";
-import { socials } from "../constants";
+import styles from '../styles';
+import { fadeIn, footerVariants } from '../utils/motion';
+import { socials } from '../constants';
 
 const Footer = () => (
   <motion.footer
@@ -20,7 +18,7 @@ const Footer = () => (
       <div className="flex flex-wrap items-center justify-between gap-5">
         <h4 className="font-bold md:text-[64px] text-[44px] text-white">Code your way to Beauty</h4>
         <motion.div
-          variants={fadeIn("down", "spring", 0.4, 1)}
+          variants={fadeIn('down', 'spring', 0.4, 1)}
           initial="hidden"
           whileInView="show"
           viewport={{ once: false, amount: 0.25 }}
