@@ -20,7 +20,11 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick, link, desc
       </h3>
     ) : (
       <div className="absolute bottom-0 p-8 justify-start w-full flex-col bg-[rgba(0,0,0,0.5)] rounded-b-[24px]">
-        <motion.p delay="1s" className="font-bold text-[16px] leading-[20px] text-[#daeff9] pb-[15px]">
+        <motion.p
+          initial="hidden"
+          whileInView="show"
+          className="font-bold text-[16px] leading-[20px] text-[#daeff9] pb-[15px]"
+        >
           {description}
         </motion.p>
         <div className={`${styles.flexCenter} w-[60px] h-[60px] rounded-[24px] glassmorphism mb-[16px]`}>

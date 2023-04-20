@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 
 import styles from "../styles";
-import { staggerContainer, fadeIn, slideIn } from "../utils/motion";
+import { staggerContainer, fadeIn, slideIn, planetVariants } from "../utils/motion";
 import { TypingText, TitleText } from "../components";
 import { useState } from "react";
 
@@ -20,9 +20,9 @@ const World = () => {
       >
         <TypingText title="| A little more about Git" textStyles="text-center" />
         <TitleText title={<>Collaborate with colleagues using Github around the globe </>} textStyles="text-center" />
-        <motion.div variants={fadeIn("up", "tween", 0.3, 1)} className="relative mt-[68px] flex w-full h-[550px]">
+        <motion.div variants={fadeIn("up", "tween", 0.5, 1)} className="relative mt-[68px] flex w-full h-[550px]">
           <motion.div
-            variants={slideIn("left", "spring", 0.3, 1)}
+            variants={planetVariants("left", 1.2)}
             initial="hidden"
             whileInView="show"
             viewport={{ once: false, amount: 0.25 }}
@@ -36,7 +36,7 @@ const World = () => {
           </motion.div>
 
           <motion.div
-            variants={slideIn("right", "spring", 0.3, 1)}
+            variants={slideIn("right", "spring", 0, 0.05)}
             initial="hidden"
             whileInView="show"
             viewport={{ once: false, amount: 0.25 }}
@@ -50,7 +50,7 @@ const World = () => {
           </motion.div>
 
           <motion.div
-            variants={slideIn("left", "spring", 0.3, 1)}
+            variants={slideIn("left", "tween", 0.3, 1)}
             initial="hidden"
             whileInView="show"
             viewport={{ once: false, amount: 0.25 }}

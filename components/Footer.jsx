@@ -19,13 +19,19 @@ const Footer = () => (
     <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
       <div className="flex flex-wrap items-center justify-between gap-5">
         <h4 className="font-bold md:text-[64px] text-[44px] text-white">Code your way to Beauty</h4>
-        <button className="flex items-center h-fit py-4 px-6 bg-[#25618b] rounded-[32px] gap-[12px] ">
+        <motion.div
+          variants={fadeIn("down", "spring", 0.4, 1)}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: false, amount: 0.25 }}
+          className="flex items-center h-fit py-4 px-6 bg-[#25618b] rounded-[32px] gap-[12px] cursor-pointer "
+        >
           <img src="/headset.svg" alt="headset" className="w-[24px] h-[24px] object-contain" />
           <span className="font-normal text-white text-[16px]">Develop It All</span>
-        </button>
+        </motion.div>
       </div>
       <div className="flex flex-col">
-        <div className="mb-[50px] h-[2px] bg-white opacity-10" />
+        <div className=" h-[2px] bg-white opacity-10" />
         <div className="flex flex-wrap items-center justify-between gap-4">
           <h4 className="font-extrabold text-[24px] text-white">Libraries are Fun</h4>
           <p className="font-normal text-white opacity-50 text-[14px]">

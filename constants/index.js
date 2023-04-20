@@ -89,22 +89,22 @@ export const newFeatures = [
 
 export const insights = [
   {
-    imgUrl: "/planet-06.png",
-    title: "The launch of the Metaverse makes Elon musk ketar-ketir",
+    imgUrl: "/VSCodeBackground-1.png",
+    title: "What a Good IDE(A)!",
     subtitle:
-      "Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.",
+      "Visual Studio Code, or VSCode for short, is like a trusty sidekick for developers that's always got their back. It's a free and open-source code editor that's loaded with features and extensions to make coding and debugging pretty effecient",
   },
   {
-    imgUrl: "/planet-07.png",
-    title: "7 tips to easily master the madness of the Metaverse",
+    imgUrl: "/intellisenseBackground.png",
+    title: "Intellisense Your Workflow",
     subtitle:
-      "Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum",
+      "With impressive features like IntelliSense, code completion, and debugging, developers can whip up code more efficiently and with fewer errors. Plus, with a built-in terminal and support for version control integration, VSCode is the ultimate tool for development workflows. It always seems to have 1 more trick up it's sleeve. ",
   },
   {
-    imgUrl: "/planet-08.png",
-    title: "With one platform you can explore the whole world virtually",
+    imgUrl: "/connection.jpg",
+    title: "Extensions Make Life Easier",
     subtitle:
-      "Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem",
+      "  From language support to linters and formatters, to code snippets and custom themes, extensions can be used to personalize VSCode and make it even more powerful. Plus, with the ability to create and publish your own extensions, the possibilities are endless. By incorporating extensions, I can streamline my workflow and take my coding experience to the next level.",
   },
 ];
 

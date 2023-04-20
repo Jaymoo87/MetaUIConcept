@@ -16,7 +16,7 @@ const GetStarted = () => (
       viewport={{ once: "false", amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8`}
     >
-      <motion.div variants={planetVariants("left")} className={`${styles.flexCenter} flex-1`}>
+      <motion.div variants={planetVariants("left", 2.5)} className={`${styles.flexCenter} flex-1`}>
         <img src="/getstarted.png" alt="get-started" className="w-[90%] h-[90%] object-contain" />
       </motion.div>
       <motion.div variants={fadeIn("left", "tween", 0.2, 1)} className="flex-[0.75] flex justify-center flex-col">

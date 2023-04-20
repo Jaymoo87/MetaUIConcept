@@ -25,7 +25,7 @@ const WhatsNew = () => (
           ))}
         </div>
       </motion.div>
-      <motion.div variants={planetVariants("right")} className={`${styles.flexCenter} flex-1`}>
+      <motion.div variants={planetVariants("right", 1.8)} className={`${styles.flexCenter} flex-1`}>
         <img src="/Git-HubPic.png" alt="whats-new" className="w-[90%] h-[90%] object-contain rounded-full " />
       </motion.div>
     </motion.div>
