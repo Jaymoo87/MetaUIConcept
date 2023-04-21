@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap');
 :root {
   --transition: cubic-bezier(0.3, 0, 0.3, 1);
 }
@@ -11,7 +11,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Nunito", sans-serif;
+  font-family: 'Nunito', sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -117,6 +117,7 @@
   height: 400px;
   z-index: 10;
   overflow: hidden;
+  font-size: 64px;
 }
 
 .mapcard p {
@@ -127,4 +128,21 @@
   font-size: 48px;
   justify-content: center;
   overflow: hidden;
+  padding-top: 15%;
+}
+
+@media screen and (max-width: 768px) {
+  .mapcard:hover p:hover {
+    font-size: 16px;
+    justify-content: center;
+    overflow: hidden;
+    padding-top: 50px;
+  }
+
+  .mapcard:hover {
+    width: 175px;
+    height: 200px;
+    z-index: 10;
+    overflow: hidden;
+  }
 }
