@@ -3,7 +3,6 @@
 import { motion } from 'framer-motion';
 
 import { fadeIn, planetVariants } from '../utils/motion';
-import styles from '../styles';
 
 const InsightCard = ({ index, imgUrl, title, subtitle }) => (
   <motion.div variants={fadeIn('up', 'spring', index * 0.5, 1)} className="flex flex-col gap-4 md:flex-row sm:flex-row">
@@ -17,7 +16,7 @@ const InsightCard = ({ index, imgUrl, title, subtitle }) => (
       <img
         src={imgUrl}
         alt="vscode"
-        className={`lg:w-[450px] md:w-[270px] sm:w-[70px]  h-full w-full rounded-b-3xl rounded-tl-3xl`}
+        className="lg:w-[450px] md:w-[270px] sm:w-[70px]  h-full w-full rounded-b-3xl rounded-tl-3xl"
       />
     </motion.div>
     <div className="flex items-center justify-between w-full">
