@@ -11,12 +11,44 @@ const VSCode = () => (
   <section className={`${styles.paddings} relative z-10 p-10`}>
     <motion.img
       src="/VSCodeLogo.png"
-      variants={planetVariants(['up', 'left'], 5)}
+      variants={planetVariants(['up', 'left'], 9)}
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
       className="absolute lg:h-[400px] lg:w-[400px] lg:top-[750px] lg:right-[600px] h-[150px] w-[150px] -top-[15px] right-[130px] z-[0] opacity-50"
-    ></motion.img>
+    />
+    <motion.img
+      src="/VSCodeLogo.png"
+      variants={planetVariants(['up', 'left'], 7.5)}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: false, amount: 0.25 }}
+      className="absolute lg:h-[400px] lg:w-[400px] lg:top-[750px] lg:right-[600px] h-[150px] w-[150px] -top-[15px] right-[130px] z-[0] opacity-50"
+    />
+    <motion.img
+      src="/VSCodeLogo.png"
+      variants={planetVariants(['up', 'left'], 6)}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: false, amount: 0.25 }}
+      className="absolute lg:h-[400px] lg:w-[400px] lg:top-[750px] lg:right-[600px] h-[150px] w-[150px] -top-[15px] right-[130px] z-[0] opacity-50"
+    />
+    <motion.img
+      src="/VSCodeLogo.png"
+      variants={planetVariants(['up', 'left'], 4)}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: false, amount: 0.25 }}
+      className="absolute lg:h-[400px] lg:w-[400px] lg:top-[750px] lg:right-[600px] h-[150px] w-[150px] -top-[15px] right-[130px] z-[0] opacity-50"
+    />
+    <motion.img
+      src="/VSCodeLogo.png"
+      variants={planetVariants(['up', 'left'], 2)}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: false, amount: 0.25 }}
+      className="absolute lg:h-[400px] lg:w-[400px] lg:top-[750px] lg:right-[600px] h-[150px] w-[150px] -top-[15px] right-[130px] z-[0] opacity-50"
+    />
     <motion.div
       variants={staggerContainer}
       initial="hidden"
